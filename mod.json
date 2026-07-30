@@ -1,0 +1,21 @@
+{
+  "Name": "TAMPS",
+  "Enabled": true,
+  "Version": "1.0.7",
+  "Description": "Developed in 3063 by the Night Sentinels mercenary company, the Triad Ablative Magazine Protection System uses a shared, replaceable ablative core to suppress ammunition detonations in up to two protected bins mounted in the same side torso.",
+  "Author": "Night Sentinels",
+  "DLL": "TAMPS.dll",
+  "DLLEntryPoint": "TAMPS.Mod.Init",
+  "DependsOn": [],
+  "ConflictsWith": [],
+  "Manifest": [
+    {
+      "Type": "UpgradeDef",
+      "Path": "upgrades",
+      "AddToDB": true
+    }
+  ],
+  "Settings": {
+    "WriteAllowList": false
+  }
+}
